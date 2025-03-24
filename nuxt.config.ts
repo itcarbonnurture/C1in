@@ -3,25 +3,25 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxt/icon', 
-    '@nuxt/image', 
+    '@nuxt/icon',
+    '@nuxt/image',
     '@nuxt/ui',
-    '@nuxt/scripts'
+    '@nuxt/scripts',
   ],
 
   css: [
-     
-    'bootstrap/dist/css/bootstrap.min.css'
+    'bootstrap/dist/css/bootstrap.min.css',
   ],
 
   app: {
     head: {
-      link: [
+      script: [
         {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;800&display=swap'
-        }
-      ]
-    }
-  }
-})
+          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js', // Подключаем Bootstrap JS
+          type: 'text/javascript',
+          defer: true, // Скрипт загружается после HTML
+        },
+      ],
+    },
+  },
+});

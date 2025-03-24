@@ -1,7 +1,7 @@
 <template>
    <div class="custom-container">
     <section id="hero">
-      <!-- Десктопная версия (по умолчанию) -->
+      <!-- Банер  -->
       <div class="desktop-hero">
         <img src="/assets/images/baner-home.jpg" alt="Hero Image" class="hero-image">
         <div class="banner-content">
@@ -16,15 +16,66 @@
         </div>
       </div>
     </section>
+<!-- Банер  -->
+
+<!-- Карусель -->
+<div class="conainer1">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/images/1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/images/3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<!-- Карусель -->
 
 
 
 
-    
   </div>
 </template>
 
+<script setup>
+import { onMounted } from "vue";
+
+const initializeCarousels = () => {
+  const carousels = document.querySelectorAll(".carousel");
+  carousels.forEach((carousel) => {
+    new bootstrap.Carousel(carousel, {
+      interval: 3000, // Интервал между слайдами
+      ride: "carousel", // Автоматический запуск
+    });
+  });
+};
+
+onMounted(() => {
+  initializeCarousels();
+});
+</script>
+
+
 <style scoped>
+
 /* Основной контейнер баннера */
 .custom-container {
   width: 100%;
@@ -84,7 +135,19 @@
   background-color: #333;
 }
 /* Основной контейнер баннера */
+/* Карусель */
+.conainer1 {
+  max-width: 1700px;
+  margin: 0 auto;
+}
 
+
+
+
+
+
+
+/* Карусель */
 
 
 /* Мобильная версия */
