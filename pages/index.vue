@@ -17,7 +17,7 @@
       </div>
     </section>
 <!-- Банер  -->
-
+<h2 class="text-center">var 1</h2>
 <!-- Карусель -->
 <div class="conainer1">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -51,7 +51,7 @@
 
 
 
-
+<h2 class="text-center">var 2</h2>
 <!-- Карусель 2 -->
 <div class="custom-carousel-container">
   <!-- Основная карусель -->
