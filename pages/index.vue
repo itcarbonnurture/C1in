@@ -52,6 +52,59 @@
 
 
 
+<!-- Карусель 2 -->
+<div class="custom-carousel-container">
+  <!-- Основная карусель -->
+  <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/images/1.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/2.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/3.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Галерея миниатюр -->
+  <div class="custom-thumbnail-gallery mt-4">
+    <div class="row">
+      <div class="col-4">
+        <img src="/assets/images/1.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="0" alt="...">
+      </div>
+      <div class="col-4">
+        <img src="/assets/images/2.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="1" alt="...">
+      </div>
+      <div class="col-4">
+        <img src="/assets/images/3.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="2" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Карусель 2 -->
+
+
+
+
+
+
   </div>
 </template>
 
@@ -140,7 +193,29 @@ onMounted(() => {
   max-width: 1700px;
   margin: 0 auto;
 }
+#carouselExampleIndicators {
+  height: 80vh; /* Карусель занимает 70% высоты экрана */
+}
 
+.carousel-inner {
+  height: 100%; /* Внутренний контейнер занимает всю высоту */
+}
+
+
+.carousel-item {
+  height: 100%; /* Каждый элемент карусели занимает всю высоту */
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Чтобы изображение полностью помещалось без обрезки */
+}
 
 
 
@@ -148,6 +223,58 @@ onMounted(() => {
 
 
 /* Карусель */
+/* Карусель 2 */
+/* Стили галереи миниатюр */
+/* Контейнер карусели */
+.custom-carousel-container {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+/* Устанавливаем высоту карусели */
+#customCarousel {
+  height: 70vh; /* 70% высоты экрана */
+}
+
+/* Внутренний блок карусели */
+.custom-carousel-container .carousel-inner {
+  height: 100%;
+}
+
+/* Элементы карусели */
+.custom-carousel-container .carousel-item {
+  height: 100%;
+}
+
+/* Картинки внутри карусели */
+.custom-carousel-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Заполняет контейнер без искажений */
+}
+
+/* Галерея миниатюр */
+.custom-thumbnail-gallery {
+  text-align: center;
+}
+
+.custom-gallery-img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.custom-gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Карусель 2*/
+
+
+
+
 
 
 /* Мобильная версия */
