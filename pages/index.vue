@@ -12,7 +12,7 @@ decreasing greenhouse gas emissions." class="hero-image">
         <div class="banner-content">
           <h1 class="banner-title">
             Saving resources for you <br />
-            and the future of the planet
+            and the future of the planet.
           </h1>
           <p class="banner-subtitle">
             C1iN: solutions saving one thing that is most precious – our planet.
@@ -37,28 +37,28 @@ decreasing greenhouse gas emissions." class="hero-image">
       <div class="carousel-item active">
         <img src="/assets/images/1.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Golf Courses</h5>
+          <h5 class="general-text">Golf Courses.</h5>
           <p class="minor-text">helps golf courses maintain pristine, championship-level turf while cutting down on water and fertilizer use.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Agriculture</h5>
+          <h5 class="general-text">Agriculture.</h5>
           <p class="minor-text">integrates seamlessly into farming practices, supporting crop growth in nutrient-limited and arid soils, decreasing water and fertilizer consumption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Gardens</h5>
+          <h5 class="general-text">Gardens.</h5>
           <p class="minor-text">can be used in home gardens to promote stronger, more resilient plants. It is mixed into the soil or added to watering systems for optimal absorption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/4.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Landscaping</h5>
+          <h5 class="general-text">Landscaping.</h5>
           <p class="minor-text">Ideal for public parks, corporate landscapes, green roofs, and residential green spaces, enhancing plant vitality while reducing maintenance costs.</p>
         </div>
       </div>
