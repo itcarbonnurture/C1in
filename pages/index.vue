@@ -98,7 +98,7 @@ ClIN Enhancer Application" class="hero-image"> </div>
         These discoveries led to the development of <strong class="fw-bold">C1iN</strong>, a biofertilizer that harnesses these naturally occurring
         microbes to improve drought resilience, boost soil fertility, and reduce water and fertilizer needs.
         Ongoing research continues to refine the <strong class="fw-bold">ideal microbial blend</strong> for maximum plant benefits.
-        <strong class="fw-bold">The result? A groundbreaking, science-backed way to grow stronger, healthier plants—naturally!</strong>
+        <strong class="fw-bold">The result? A groundbreaking, science-backed way to grow stronger, healthier plants — naturally!</strong>
       </p>
       <NuxtLink to="/product" class="btn banner-btn1 fw-bold  rounded-pill">
         Learn more about
