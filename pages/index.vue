@@ -3,106 +3,116 @@
     <section id="hero">
       <!-- Банер  -->
       <div class="desktop-hero">
-        <img src="/assets/images/baner-home.jpg" alt="Hero Image" class="hero-image">
+        <img src="/assets/images/baner-home.jpg" alt="We harness the power of methane-consuming bacteria to produce
+greener future and preserve resources for the future generation by
+reducing water consumption
+increasing drought resilience
+restoring soils
+decreasing greenhouse gas emissions." class="hero-image">
         <div class="banner-content">
           <h1 class="banner-title">
             Saving resources for you <br />
             and the future of the planet
           </h1>
           <p class="banner-subtitle">
-            C1iN: greener future on the intersection of nature and science
+            C1iN: solutions saving one thing that is most precious – our planet.
           </p>
           <NuxtLink to="/product" class="btn banner-btn">Try C1iN Enhancer</NuxtLink>
         </div>
       </div>
     </section>
 <!-- Банер  -->
-<h2 class="text-center">var 1</h2>
+
 <!-- Карусель -->
 <div class="conainer1">
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/assets/images/1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/assets/images/3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<!-- Карусель -->
-
-
-
-<h2 class="text-center">var 2</h2>
-<!-- Карусель 2 -->
-<div class="custom-carousel-container">
-  <!-- Основная карусель -->
-  <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button> <!-- Добавлен 4-й индикатор -->
     </div>
+
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/assets/images/1.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+        <img src="/assets/images/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h5 class="general-text">Golf Courses</h5>
+          <p class="minor-text">helps golf courses maintain pristine, championship-level turf while cutting down on water and fertilizer use.</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/2.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+        <img src="/assets/images/2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h5 class="general-text">Agriculture</h5>
+          <p class="minor-text">integrates seamlessly into farming practices, supporting crop growth in nutrient-limited and arid soils, decreasing water and fertilizer consumption.</p>
+        </div>
       </div>
       <div class="carousel-item">
-        <img src="/assets/images/3.jpg" class="d-block w-100 custom-carousel-img" alt="...">
+        <img src="/assets/images/3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h5 class="general-text">Gardens</h5>
+          <p class="minor-text">can be used in home gardens to promote stronger, more resilient plants. It is mixed into the soil or added to watering systems for optimal absorption.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h5 class="general-text">Landscaping</h5>
+          <p class="minor-text">Ideal for public parks, corporate landscapes, green roofs, and residential green spaces, enhancing plant vitality while reducing maintenance costs.</p>
+        </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-  <!-- Галерея миниатюр -->
-  <div class="custom-thumbnail-gallery mt-4">
-    <div class="row">
-      <div class="col-4">
-        <img src="/assets/images/1.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="0" alt="...">
+</div>
+<!-- Карусель -->
+ <!-- банер 2  -->
+<section id="hero">
+      <div class="desktop-hero">
+        <img src="/assets/images/baner-2.jpg" alt="Nature-inspired, science-grounded: Backed by 10 + Years  of Research.  C1iN is built on over a decade of research at San Diego State University, where scientists studied how desert soil microbes naturally support plant growth. Key findings include: Adding methane-consuming bacteria  enhances soil and plant health.  Plants in arid environments use methane  (CH₄) for water and energy recovery Methane consumption in dry soils 
+increases when vegetation is present." class="hero-image">
       </div>
-      <div class="col-4">
-        <img src="/assets/images/2.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="1" alt="...">
-      </div>
-      <div class="col-4">
-        <img src="/assets/images/3.jpg" class="img-thumbnail custom-gallery-img" data-bs-target="#customCarousel" data-bs-slide-to="2" alt="...">
-      </div>
+    </section>
+ <!-- банер 2  -->
+ <!-- банер 3  -->
+ <section id="hero">
+      <div class="desktop-hero">
+        <img src="/assets/images/baner-3.jpg" alt="Common Landscape
+Vegetation Vegetation with
+ClIN Enhancer Application" class="hero-image"> </div>
+    </section>
+ <!-- банер 3  -->
+ <!-- банер 4  -->
+ <div class="container py-5">
+    <div class="green-baner text-white text-center d-flex flex-column justify-content-center align-items-center rounded-4  px-md-5">
+      <p class="lead custom-text mb-4">
+        These discoveries led to the development of <strong class="fw-bold">C1iN</strong>, a biofertilizer that harnesses these naturally occurring
+        microbes to improve drought resilience, boost soil fertility, and reduce water and fertilizer needs.
+        Ongoing research continues to refine the <strong class="fw-bold">ideal microbial blend</strong> for maximum plant benefits.
+        <strong class="fw-bold">The result? A groundbreaking, science-backed way to grow stronger, healthier plants—naturally!</strong>
+      </p>
+      <NuxtLink to="/product" class="btn banner-btn1 fw-bold  rounded-pill">
+        Learn more about
+      </NuxtLink>
     </div>
   </div>
-</div>
-
-<!-- Карусель 2 -->
-
-
-
-
+ <!-- банер 4  -->
+ <!-- банер 5  -->
+  
+ <section id="hero">
+      <div class="desktop-hero">
+        <img src="/assets/images/baner-5.jpg" alt="" class="hero-image"> </div>
+    </section>
+ <!-- банер 5  -->
 
 
   </div>
@@ -128,6 +138,68 @@ onMounted(() => {
 
 
 <style scoped>
+/* Банер 4 */
+.green-baner {
+  background-color: #5a912d;
+  color: #ffffff;
+  min-height: 300px;
+  padding: 2rem 1rem; /* Универсальные вертикальные и горизонтальные отступы */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.custom-text {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+  line-height: 1.6;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.banner-btn1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: clamp(14px, 2vw, 18px);
+  background-color: #000000;
+  color: #fff;
+  padding: 17px 55px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+
+
+/* Дополнительный отступ внутри контейнера на маленьких экранах */
+@media (max-width: 768px) {
+  .green-baner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+
+
+/* Банер 4 */
+.general-text {
+  font-size: clamp(22px, 5vw, 46px);
+  font-weight: bold;
+}
+
+.minor-text {
+  font-size: clamp(16px, 3.5vw, 30px);
+  font-weight: bold;
+}
+
 
 /* Основной контейнер баннера */
 .custom-container {
@@ -136,6 +208,7 @@ onMounted(() => {
   margin: 0 auto; /* Выравнивание по центру */
  /* Внутренние отступы по бокам */
 }
+
 
 #hero {
   position: relative;
@@ -174,15 +247,17 @@ onMounted(() => {
 .banner-btn {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 600;
-  font-size: 14px;
-  background-color: #000;
+  font-size: 18px;
+  background-color: #5a912d;
   color: #fff;
-  padding: 12px 24px;
-  border-radius: 25px;
+  padding: 17px 55px;
+  border-radius: 50px;
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s;
 }
+
+
 
 .banner-btn:hover {
   background-color: #333;
