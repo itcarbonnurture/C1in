@@ -17,13 +17,10 @@
             <NuxtLink class="nav-link text-black" to="/about">About Us</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link text-black" to="/science">Science</NuxtLink>
+            <NuxtLink class="nav-link text-black" to="/science">Applications</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link text-black" to="/applications">Applications & Benefits</NuxtLink>
-          </li>
-          <li class="nav-item">
-            <NuxtLink class="nav-link text-black" to="/product">Product and Ordering</NuxtLink>
+            <NuxtLink class="nav-link text-black" to="/applications">Product</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link text-black" to="/faq">FAQ</NuxtLink>
