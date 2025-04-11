@@ -22,7 +22,13 @@ decreasing greenhouse gas emissions." class="hero-image">
       </div>
     </section>
 <!-- Банер  -->
-
+ <!-- банер 5  -->
+  
+ <section id="hero">
+      <div class="desktop-hero">
+        <img src="/assets/images/baner-5.jpg" alt="" class="hero-image"> </div>
+    </section>
+ <!-- банер 5  -->
 <!-- Карусель -->
 <div class="conainer1">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -37,28 +43,28 @@ decreasing greenhouse gas emissions." class="hero-image">
       <div class="carousel-item active">
         <img src="/assets/images/1.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Golf Courses.</h5>
+          <h5 class="general-text">Golf Courses</h5>
           <p class="minor-text">helps golf courses maintain pristine, championship-level turf while cutting down on water and fertilizer use.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Agriculture.</h5>
+          <h5 class="general-text">Agriculture</h5>
           <p class="minor-text">integrates seamlessly into farming practices, supporting crop growth in nutrient-limited and arid soils, decreasing water and fertilizer consumption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Gardens.</h5>
+          <h5 class="general-text">Gardens</h5>
           <p class="minor-text">can be used in home gardens to promote stronger, more resilient plants. It is mixed into the soil or added to watering systems for optimal absorption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="/assets/images/4.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
-          <h5 class="general-text">Landscaping.</h5>
+          <h5 class="general-text">Landscaping</h5>
           <p class="minor-text">Ideal for public parks, corporate landscapes, green roofs, and residential green spaces, enhancing plant vitality while reducing maintenance costs.</p>
         </div>
       </div>
@@ -83,14 +89,6 @@ increases when vegetation is present." class="hero-image">
       </div>
     </section>
  <!-- банер 2  -->
- <!-- банер 3  -->
- <section id="hero">
-      <div class="desktop-hero">
-        <img src="/assets/images/baner-3.jpg" alt="Common Landscape
-Vegetation Vegetation with
-ClIN Enhancer Application" class="hero-image"> </div>
-    </section>
- <!-- банер 3  -->
  <!-- банер 4  -->
  <div class="container py-5">
     <div class="green-baner text-white text-center d-flex flex-column justify-content-center align-items-center rounded-4  px-md-5">
@@ -106,13 +104,7 @@ ClIN Enhancer Application" class="hero-image"> </div>
     </div>
   </div>
  <!-- банер 4  -->
- <!-- банер 5  -->
-  
- <section id="hero">
-      <div class="desktop-hero">
-        <img src="/assets/images/baner-5.jpg" alt="" class="hero-image"> </div>
-    </section>
- <!-- банер 5  -->
+
 
 
   </div>
